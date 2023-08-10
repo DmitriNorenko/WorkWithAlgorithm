@@ -1,10 +1,13 @@
-﻿namespace WorkWithAlgorithm
+﻿using WorkWithAlgorithm;
+
+namespace WorkWithAlgorithm
+
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Users.UsersInfo();
         }
     }
 }
