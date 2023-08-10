@@ -17,7 +17,7 @@ namespace WorkWithAlgorithm
             Console.WriteLine("Купите подписку на МыКомбо и слушайте музыку везде и всегда.");
             Thread.Sleep(2000);
 
-            Console.WriteLine("Оформите премиум-подписку на наш сервис, чтобы не видеть рекламу.");
+            Console.WriteLine("Оформите премиум-подписку на наш сервис, чтобы не видеть рекламу.\n");
             Thread.Sleep(3000);
         }
     }
