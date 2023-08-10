@@ -18,13 +18,14 @@ namespace WorkWithAlgorithm
             Name = name;
             IsPremium = isPremium;
         }
-        public static void UsersInfo()
+        public static Users[] UsersInfo()
         {
             Users[] users = new Users[4];
             users[0] = new Users("1", "Иван", false);
             users[1] = new Users("2", "Борис", true);
             users[2] = new Users("3", "Николай", false);
             users[3] = new Users("4", "Александр", true);
+            return users;
         }
     }
 }

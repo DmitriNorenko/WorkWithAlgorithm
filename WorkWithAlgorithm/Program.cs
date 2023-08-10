@@ -7,7 +7,8 @@ namespace WorkWithAlgorithm
     {
         static void Main(string[] args)
         {
-            Users.UsersInfo();
+           Users[] users = Users.UsersInfo();
+            
         }
     }
 }
